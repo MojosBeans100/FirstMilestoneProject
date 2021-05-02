@@ -1,0 +1,582 @@
+
+
+body {	font-family: 'Roboto', sans-serif;
+		background: white;
+		min-width: 750px;}
+
+
+
+
+.main-page-background-image {
+	/* The image used */
+	background-image: url("https://cache.marriott.com/marriottassets/marriott/BJVLC/bjvlc-fitness-9619-hor-feat.jpg");
+  
+	/* Full height */
+	height: 100%; 
+  
+	/* Center and scale the image nicely */
+	background-position: center;
+		background-repeat: no-repeat;
+	background-size: cover;
+		opacity: 0.7;
+	  }
+
+.facilities-page-background-image {
+background-image: url("https://images.pexels.com/photos/2261485/pexels-photo-2261485.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+height: 100%; 
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.7;
+margin: 0;
+padding: 0;
+}
+
+.PT-page-background-image {
+	/* The image used */
+background-image: url("https://images.pexels.com/photos/6455901/pexels-photo-6455901.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+		  
+/* Full height */
+height: 100%; 
+		  
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.7;
+margin: 0;
+padding: 0;
+}
+
+.classes-page-background-image {
+/* The image used */
+background-image: url("https://images.pexels.com/photos/4325436/pexels-photo-4325436.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+			  
+/* Full height */
+height: 100%; 
+/* Center and scale the image nicely */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.7;
+margin: 0;
+padding: 0;
+}
+
+#main-page-nav {
+	width: 90%;
+	margin: auto;
+	top: 20px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	color: white;}
+	
+#classes-page-nav {width: 90%;
+	margin: auto;
+	top: 20px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	display: flex;
+	justify-content: space-between;
+	font-size: 25px;
+	color: rgb(79, 80, 48);}
+
+.column {float: left;
+	width: 32.8%;
+	left: 5px;
+	position: relative;
+		padding: 2px;
+		background-color: rgb(145, 177, 170);
+		font-weight: bolder;
+		font-size: 20px;
+	}
+
+#classes-h1 {text-align: center;
+	top: 5%;
+	position: relative;
+	font-size: 50px;
+	
+}
+
+
+#classes-colour-band {width:100%;
+	background-color:rgb(235, 224, 217);
+	font-family: "Courier New";
+	font-weight: bolder;
+	font-size: 25px;
+	margin: auto;
+	padding: 0;
+	text-align: center;
+	height: 100px;
+	top: 0%;
+	position: relative;
+	margin: 0;
+	padding: 0;}
+
+#facilities-different-rooms {
+	text-align: center;
+}
+
+
+  #main-page-h1 {font-size:80px;
+	text-align: center;
+	margin: auto;
+	top: 40%;
+	left: 25%;
+	position: absolute;
+	color: rgb(255, 255, 255);
+	opacity: 1.0;}
+
+#main-page-footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position:absolute;
+   bottom:0;
+	height: 120px;
+font-size: 13px;
+font-weight: bolder;
+color:white;
+background-color:rgb(46, 32, 24);}
+
+#facilities-colour-band {width:100%;
+background-color:rgb(145, 177, 170);
+font-family: "Courier New";
+font-weight: bolder;
+font-size: 25px;
+margin: auto;
+padding: 0;
+border:solid black;
+text-align: center;
+color: white;
+height: 300px;
+top: 0%;
+position: relative;
+margin: 0;
+padding: 0;}
+
+
+#facilities-footer {
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	position:relative;
+   bottom:0;
+	height: 120px;
+font-size: 13px;
+font-weight: bolder;
+color:white;
+background-color:rgb(71, 87, 83);}
+
+.form1 {width:60%;
+border: solid black;
+margin: auto;}
+
+#facilities-article {font-size: 30px;}
+
+label  {font-size: 20px;}
+legend  {font-size: 20px;}
+
+#firstfieldsetdiv {border: solid aqua;
+width:50%;
+float:left;}
+
+#secondfieldsetdiv {border: solid aqua;
+	width:50%;
+	top:5px;}
+
+#facilities-header{font-family: 'Brandon Grotesque', sans-serif;}
+
+.heading1 {		
+			
+			font-family: 'Roboto', sans-serif;
+			letter-spacing: 4px;
+			font-size:60px;
+			text-align: center;
+			color: white;
+			text-shadow: grey;
+			width: 90%;
+			margin: auto;
+		}
+
+#facilities-h1{text-align: center;
+	margin: auto;
+	font-size: 50px;
+	top: 50%;
+	left: 5%;
+	position: absolute;
+	color: rgb(255, 255, 255);
+	opacity: 1.0;}
+
+#yourehere {color: grey;
+font-size: 30px;}
+
+#homepagelink {text-decoration: none;
+color: inherit;}
+
+#facilitieslink {text-decoration: none;
+	color: inherit;}
+
+#facilitieslink:hover {color: grey;}
+#membershiplink:hover {color: grey;}
+#classeslink:hover {color: grey;}
+#homepagelink:hover {color: grey;}
+
+#membershiplink {text-decoration: none;
+		color: inherit;}	
+
+#classeslink {text-decoration: none;
+			color: inherit;}	
+
+#nav1 {
+			
+			width: 80%;
+			margin: auto;
+			text-align: center;
+			display: flex;
+    		justify-content: space-between;
+			font-size: 25px;
+			color: white;
+			
+		}
+
+#facilities-article {
+			
+			width: 80%;
+			margin: auto;
+			text-align: center;
+			display: flex;
+    		justify-content: space-between;
+			font-size: 25px;
+			color: white;
+			font-weight: bold;
+			text-transform: uppercase;
+			
+		}
+
+#facilities-equipment {width: 80%;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	font-size: 40px;
+	font-weight: bolder;
+	text-transform: uppercase;}
+
+#facilities-full-width {width: 100%;
+margin:auto;}
+
+#facilities-number-section {width: 100%;
+background-color: white;}
+
+#main-page-image {width: 100%;
+height: 100%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;}
+
+#topcolorband {
+				width:80%;
+				top: 0px;
+				height: 40px;
+				margin: auto;
+				background: steelblue;
+			
+			}
+
+
+#colorband2 {
+				width:100%;
+				top: 60px;
+				height: 25px;
+				margin: auto;
+				background: rgb(99, 105, 116);
+			
+			}
+
+#colorband3 {
+				width:100%;
+				top:25px;
+				position: relative;
+				height: 80px;
+				margin: auto;
+				background: rgb(144, 172, 144);
+			
+			}
+
+
+#widthdiv {
+				width: 80%;
+				background: rgb(147, 155, 170);
+				margin: auto;
+			}
+
+
+#article1 {
+			width: 50%;
+			flex: 50%;
+			font-size: 20px;
+			font-weight: bold;
+			margin-left: 2cm;
+			}
+
+
+
+
+#article2 {
+			width: 50%;
+			;
+			flex: 50%;
+			}
+
+h2 		{
+			text-align: center;
+			font-size: 30px;
+
+		}
+
+#interested-heading {position: relative;top:20px;color:white;}
+
+h3 		{
+			text-align: center;
+			font-size: 25px;	
+}
+
+
+li		 {  font-weight: bold;
+			font-size: 20px;
+			margin-left: 4cm;
+		}
+
+
+#fullwidth1 {width: 100%;
+	display: flex;
+	background-color:rgb(192, 192, 192);
+	
+margin: auto;
+height:400px;}
+
+figure {flex: 50%;}
+
+
+img {width: 80%;
+height: 100%;
+margin-left: 2cm;
+border: black 1px;}
+
+#application-process {width: 80%;
+text-align: justify;
+top:1cm;
+left: 7.5cm;
+position: relative;}
+
+#fullwidth2 {	width: 100%;
+				display: flex;
+				background-color:rgb(198, 226, 197) ;
+				margin: auto;
+				height:400px;}
+
+#fullwidth6 {	width: 100%;
+					
+					background-color:rgb(198, 226, 197);
+					;
+					margin: auto;
+					height:600px;}
+	
+#fullwidth5 {	width: 100%;
+					
+background-color:white;
+						
+						margin: auto;
+						height:400px;}
+		
+
+
+#fullwidth3 {width: 100%;
+	
+	background-color:rgb(198, 226, 197);
+	
+margin: auto;
+height: 300px;
+}
+
+#fullwidth4 {width: 100%;
+	
+	background-color:rgb(198, 226, 197);
+	
+margin: auto;
+height: 400px;
+}
+
+
+#priceheading {
+	text-align: center;
+	font-size: 35px;
+		width: 75%;
+	margin: auto;}
+
+	
+table {margin: auto;
+	font-size: 20px;
+width: 50%;
+height: 50%;
+background-color: rgb(255, 255, 255);
+border: black solid;
+}
+
+td {text-align: center;
+}
+
+tr {text-align: center;}
+
+th {
+background-color:rgb(82, 69, 63);
+color: white;
+}
+
+h4 {text-align: center;}
+
+
+table.timetable {margin: auto;
+	font-size: 20px;
+width: 80%;
+height: 70%;
+top: 5%;
+position: relative;
+border: black solid;
+margin-top: 60px;
+}
+
+#bookaclass {
+width: 150px;
+height:60px;
+font-size: 20px;
+bottom: 0px;
+margin-left:45%;
+text-align: center;
+position: relative;
+background-color:lightskyblue;}
+
+#classesbodypump {font-size:20px;
+	font-weight:bold;
+width: 50%;
+flex:50%;
+margin-left: 3cm;}
+
+#classessectionbodypump {width:100%;
+	background-color:rgb(198, 226, 197);
+	border: black solid;
+	display:flex;
+margin: auto;
+height: 500px;}
+
+#classesbodyHIIT {font-size:20px;
+	font-weight:bold;
+width: 50%;
+flex:50%;
+margin-left: 3cm;}
+
+#classessectionbodyHIIT {width:100%;
+	background-color:white;
+	border: black solid;
+	display:flex;
+margin: auto;
+height: 500px;}
+
+#classesspinning {font-size:20px;
+	font-weight:bold;
+width: 50%;
+flex:50%;
+margin-left: 3cm;}
+
+#classessectionspinning {width:100%;
+	background-color:rgb(198, 226, 197);
+	border: black solid;
+	display:flex;
+margin: auto;
+height: 500px;}
+
+#classesvinyasayoga {font-size:20px;
+	font-weight:bold;
+width: 50%;
+flex:50%;
+margin-left: 3cm;}
+
+#classessectionvinyasayoga {width:100%;
+	background-color:rgb(198, 226, 197);
+	border: black solid;
+	display:flex;
+margin: auto;
+height: 500px;}
+
+#classesashtangayoga {font-size:20px;
+	font-weight:bold;
+width: 50%;
+flex:50%;
+margin-left: 3cm;}
+
+#classessectionashtangayoga {width:100%;
+	background-color:white;
+	border: black solid;
+	display:flex;
+margin: auto;
+height: 500px;}
+
+#classespilates {font-size:20px;
+	font-weight:bold;
+width: 50%;
+flex:50%;
+margin-left: 3cm;}
+
+#classessectionpilates {width:100%;
+	background-color:white;
+	border: black solid;
+	display:flex;
+margin: auto;
+height: 500px;}
+
+#classselectorform {height:800px;
+background-color: rgb(104, 51, 26);
+width: 70%;
+margin: auto;
+text-align: center;}
+
+#classselectorformheading {font-size: 30px;
+text-align: center;}
+
+
+
+/*SOCIAL MEDIA ICONS*/
+
+.fa {
+	padding: 20px;
+	font-size: 40px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+  }
+  
+  .fa:hover {
+	  opacity: 0.7;
+  }
+  
+  .fa-facebook {
+	background: #3B5998;
+	color: white;
+  }
+  
+  .fa-twitter {
+	background: #55ACEE;
+	color: white;
+  }
+  
+  
